@@ -1,14 +1,70 @@
 <!DOCTYPE html>
 <html>
+  <!--Lo que esta dento del Head es el nombre que lleva la etiqueta de la pagina -->
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Fabiola Juàrez</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
+
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+
+      <div id="pagina1"> <!--Inicio de mi seccion pagina1 ------------------------------------------->
+      <h1>Welcome </h1><h2>to </h2><h3> Incognito</h3>
+    
+      <div>
+      <input type="button" id="empezar" class="button" value="Empezar " > 
+      <input type="button" id="guia" class="button" value="Guia " > 
     </div>
+
+    </div><!--Fin de mi seccion pagina1-->
+
+
+
+    <p>
+    <div id="pagina2" class=ocultar> <!--Inicio de mi seccion pagina2-------------------------------------------->
+
+    <h4>¿Que quieres hacer con tu mensaje? </h4>
+
+    <input id="opcion" type="number" min=0 max=10>
+      
+    <div  class = "hideElement">
+    <p > Ingresa tu Mensaje y selecciona los espacion a desplazar </p>
+    <input type="text" id="mensaje" placeholder="Ingresa tu msj">
+
+    <button id="codificar" value="codificar"> CODFICAR</button>
+    <button id="decodificar" value="decodificar"> DECODFICAR</button>
+
+    <!-- estoy comentando los botones por que aun no los implemento 
+    
+    <button id="volver" value="volver"> Volver</button>
+    <button id="limpiar" value="limpiar"> Limpiar</button> -->
+    
+   </div > <!--fin de mi seccion pagina2-->
+
+
+
+
+    <div id="pagina3" class= ocultar> <!--Inicio de mi seccion pagina3-------------------------------------------->
+
+
+      <h5> Tu mensaje procesado es.. </h5>
+
+      <textarea class ='mensajesss' rows='8' cols ='150'></textarea>   <!----cambiaste la clase te tuu texarea-->
+      <button id="volver2" value="volver2"> Volver</button>
+    </div>
+
+
+  </div><!--fin de mi seccion pagina3-->
+
+      
+    </div>
+  </p>
+
+  
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css?family=Coiny|Libre+Barcode+128+Text|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+
+/*.hideElement{
+  display: none;
+}*/
+
+/*
+body{
+	 text-align: center;
+   background-color: #F4FAC9 ;
+   
+
+
+
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+
+  background-color: #33E6FF;
+
+  font-size:80px;
+}
+
+h2{
+	font-family: 'Indie Flower', cursive;
+
+  background-color: #9F33FF;
+
+  font-size:40px;
+}
+h3{
+	font-family: 'Libre Barcode 128 Text', cursive;
+
+  background-color: #FF33C7;
+  
+  font-size:80px;
+}
+
+h4{
+  font-family: 'Indie Flower', cursive;
+
+  background-color: #33FF68;
+  
+  font-size:80px;
+}
+
+.button{
+
+  width: 200px;
+  height: 80px;
+font-size: 40px;
+  background-color: #F9FF33;
+ text-align: center;
+font-family: 'Indie Flower', cursive;
+
+}
+
+button img {
+  width: 150px;
+  height: 50px;
+  font-size: 200px;
+  background-color: #61FF69
+  font-family: 'Indie Flower', cursive;
+}
+ #opcion {
+font-family: 'Pacifico', cursive;
+
+ 
+
+  font-size: 30px;
+    background-color: #FF33C7
+
+
+ }
+
+  #Parrafo{
+    
+    font-family: 'Ubuntu Condensed', sans-serif;
+     font-size:30px;
+    background-color: #33E6FF;
+  }
+   #Parrafo2{
+    
+    font-family: 'Ubuntu Condensed', sans-serif;
+     font-size:30px;
+    background-color: #9F33FF;
+  }
+
+
