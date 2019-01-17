@@ -27,12 +27,11 @@
 
     <h4>¿Que quieres hacer con tu mensaje? </h4>
 
-    <input id="opcion" type="number" min=0 max=10>
+    <input id="opcion" type="number" min="0" max="10">
       
-    <div  class = "hideElement">
     <p > Ingresa tu Mensaje y selecciona los espacion a desplazar </p>
     <input type="text" id="mensaje" placeholder="Ingresa tu msj">
-    </div>
+   
     <input id="codificar" type="button" value="Codificar" >
     <input id="decodificar" type="button" value="Decodificar">
 
@@ -51,7 +50,9 @@
 
       <h5> Tu mensaje procesado es.. </h5>
 
-      <textarea class ='mensajesss' rows='8' cols ='150'></textarea>   <!----cambiaste la clase te tuu texarea-->
+      <p id = "boxResult"></p>
+
+      <!--<textarea class ="mensajesss" id = "boxResult" rows="8" cols ="150"></textarea> -->  <!----cambiaste la clase te tuu texarea-->
       <input id="volver2" type="button" value="Volver2">
     
 

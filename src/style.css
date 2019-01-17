@@ -5,20 +5,21 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 
-
-/*.hideElement{
-  display: none;
-}*/
-
 /*
+
+.ocultar{
+  display: none;
+}
+
+
 body{
 	 text-align: center;
    background-color: #F4FAC9 ;
-   
-
-
 
 }
+
+
+
 
 h1{
 	font-family: 'Pacifico', cursive;
@@ -43,6 +44,8 @@ h3{
   font-size:80px;
 }
 
+
+
 h4{
   font-family: 'Indie Flower', cursive;
 
@@ -58,7 +61,7 @@ h4{
 font-size: 40px;
   background-color: #F9FF33;
  text-align: center;
-font-family: 'Indie Flower', cursive;
+font-family: "Indie Flower", "cursive";
 
 }
 
@@ -66,8 +69,8 @@ button img {
   width: 150px;
   height: 50px;
   font-size: 200px;
-  background-color: #61FF69
-  font-family: 'Indie Flower', cursive;
+  background-color: #61FF69;
+  font-family: 'Indie Flower', 'cursive';
 }
  #opcion {
 font-family: 'Pacifico', cursive;
@@ -93,4 +96,4 @@ font-family: 'Pacifico', cursive;
     background-color: #9F33FF;
   }
 
-
+*/

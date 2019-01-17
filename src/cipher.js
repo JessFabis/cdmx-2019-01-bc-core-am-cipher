@@ -1,34 +1,32 @@
 
- const Mensaje = document.getElementById ("mensaje");
- const codificar = document.getElementById ("codificar");
- let offset = parseInt(document.getElementById("opcion").value);
- let offsetnum = Number(offset);
- let nuevoCifrado="";
- codificar.addEventListener("click",window.cipher);
 
-
+let nuevoCifrado = "";
 window.cipher = {
+  encode: (offsetnum, usuario) => {
 
 
-  /*Estamos obteniendo el codigo ascci y se convierte en mayusculas*/
+    let offsetNueva = parseInt(offsetnum);
+    /*Estamos obteniendo el codigo ascci y se convierte en mayusculas*/
+    let mayuscula = usuario.toUpperCase();
+    for (let i = 0; i < mayuscula.length; i++) {
+      let letraAscii = mayuscula.charCodeAt(i);
+      /*console.log(letraAscii);*/
 
-  
-  	let mensajeObtenido=mensaje.value;
-  	let mayuscula= mensajeObtenido.toUpperCase();
-  	
+      let formula = (letraAscii - 65 + offsetNueva) % 26 + 65;
+
+      let resultado = String.fromCharCode(formula);
+      nuevoCifrado += resultado;
+    }
+    return (nuevoCifrado);
+    /*console.log(nuevoCifrado);*/
+  },
+
+  decode: (offsetnum, usuario) => {
+    return offsetnum, usuario
+  }
 
 
-  	for (let i = 0; i<mayuscula.length; i++) {
-		  let letraAscii=mayuscula.charCodeAt(i);
-		  console.log(letraAscii);
-		  let formula=(letraAscii-65+offsetnum)%26+65;
-		  console.log(formula);
-  		let resultado=String.fromCharCode(formula);
-  		nuevoCifrado+=resultado;
-  	}
-	  alert(nuevoCifrado);
+
 
 
 };
-
-
