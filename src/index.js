@@ -1,35 +1,47 @@
 /*estoy llamando los 2 prmeros botones de la seccion 1 de mi index html----------------------*/ 
-const Empezar = document.getElementById('empezar');
-const Guia = document.getElementById('guia ')
+const iniciar = document.getElementById('empezar');
+const Guia = document.getElementById('guia ');
 
 /*llamando a mis botones  de la seccion 2 de mi  index html-----------------------------------*/
 
-const Codificar = document.getElementById('codificar');
+const cifrar = document.getElementById('codificar');
 const Decodificar=document.getElementById("decodificar");
-  /*stos botones igual estan comentados en el html
-const Volver= document.getElementById('volver');
-const Limpiar= document.getElementById('limpiar ');*/
+const regresar= document.getElementById('volver');
+const Limpiar= document.getElementById('limpiar ');
 
 /*llamando a mis botones  de la seccion 3 de mi  index html----------------------------------------*/
 
 const Volver2= document.getElementById('volver2');
 
 
-/*Haciendo la logica -----------------------------------------------------------------------------*/
+/*Cuando hace click de empezar oculta la pagina 1 -----------------------------------------------------------------------------*/
 
-Empezar.addEventListener("click",()=>{
+iniciar.addEventListener("click",() =>{
 	pagina1.classList.add("ocultar");
+	pagina2.classList.remove("ocultar");
+});
+
+cifrar.addEventListener("click",() =>{
 	pagina2.classList.add("ocultar");
+	pagina3.classList.remove("ocultar");
 });
 
-/*
-
-codificar.addEventListener("click",()=>{
-	bienvenida.classList.add("ocultar");
-	boxcode.classList.remove("ocultar");
+regresar.addEventListener("click",() =>{
+	pagina3.classList.add("ocultar");
+	pagina2.classList.remove("ocultar");
 });
 
-decodificar.addEventListener("click",()=>{
-	bienvenida.classList.add("ocultar");
-	boxcode.classList.remove("ocultar");
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
