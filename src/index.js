@@ -10,7 +10,7 @@ const iniciar = document.getElementById("empezar");
 /*llamando a mis botones  de la seccion 2 de mi  index html-----------------------------------*/
 
 const cifrar = document.getElementById("codificar");
-//const decodificar=document.getElementById("decodificar");
+const descifrar=document.getElementById("decodificar");
 //const regresar= document.getElementById("volver");
 //const Limpiar= document.getElementById("limpiar");
 
@@ -43,6 +43,15 @@ cifrar.addEventListener("click",() =>{
 
 	let resultadoFinal =window.cipher.encode(offsetnum,usuario);
 	document.getElementById("boxResult").innerHTML=resultadoFinal;
+});
+descifrar.addEventListener("click",() =>{
+	let offsetnum = offset.value;
+	let usuario =mensaje.value;
+	pagina2.classList.add("ocultar");
+	pagina3.classList.remove("ocultar");
+
+	let resultadoFinal2 =window.cipher.decode(offsetnum,usuario);
+	document.getElementById("boxResult2").innerHTML=resultadoFinal2;
 });
 /*
 regresar.addEventListener("click",() =>{
