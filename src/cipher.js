@@ -28,7 +28,7 @@ window.cipher = {
 	for (let i=0;i< mayuscula.length; i++){
 		let letraAscii =mayuscula.charCodeAt(i);
 		
-		let formula =(letraAscii +65-offsetNueva2)%26 +65;
+		let formula =(letraAscii +65-offsetNueva)%26 +65;
 		let resultado = String.fromCharCode(formula);
 		nuevoCifrado2 +=resultado;
 	}
@@ -36,7 +36,7 @@ window.cipher = {
 
 
 
-    return (nuevoCifrado2);
+    return (nuevoCifrado);
   }
 
 
