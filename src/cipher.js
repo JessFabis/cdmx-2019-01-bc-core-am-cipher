@@ -32,7 +32,7 @@ window.cipher = {
     
     
     let resultado = String.fromCharCode(formula);
-    
+    git 
 		nuevoCifrado2 +=resultado;
 	}
 
