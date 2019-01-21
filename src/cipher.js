@@ -1,11 +1,11 @@
 
 
-let nuevoCifrado = ""; /*la tenia afuera*/
-let nuevoCifrado2 = ""; /*la tenia afuera*/
+
 window.cipher = {
   encode: (offsetnum, usuario) => {
 	
-
+    let nuevoCifrado = ""; /*la tenia afuera*/
+    
     let offsetNueva = parseInt(offsetnum);
     /*Estamos obteniendo el codigo ascci y se convierte en mayusculas*/
     let mayuscula = usuario.toUpperCase();
@@ -23,8 +23,11 @@ window.cipher = {
   },
 
   decode: (offsetnum, usuario) => {
+    let nuevoCifrado2 = ""; /*la tenia afuera*/
 	let offsetNueva2 = parseInt(offsetnum);
-	let mayuscula = usuario.toUpperCase();
+  let mayuscula = usuario.toUpperCase();
+  
+  /***/
 	for (let i=0;i< mayuscula.length; i++){
 		let letraAscii =mayuscula.charCodeAt(i);
 		

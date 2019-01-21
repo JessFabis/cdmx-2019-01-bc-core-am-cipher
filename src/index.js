@@ -24,7 +24,14 @@ const mensaje = document.getElementById("mensaje");
 let offset = document.getElementById("opcion");
 
 
+const limpiar =   () =>{
+  mensaje.value = "";
 
+  offset.value= "";
+
+resultadoFinal2.value="";
+resultadoFinal.value="";
+}
 
 
 
@@ -43,6 +50,8 @@ cifrar.addEventListener("click", () => {
   
   let resultadoFinal = window.cipher.encode(offsetnum, usuario);
   document.getElementById("boxResult").innerHTML = resultadoFinal;
+
+  limpiar();
 });
 descifrar.addEventListener("click", () => {
   let offsetnum = offset.value;
@@ -52,14 +61,21 @@ descifrar.addEventListener("click", () => {
 
   let resultadoFinal2 = window.cipher.decode(offsetnum, usuario);
   document.getElementById("boxResult2").innerHTML = resultadoFinal2;
+
+  limpiar();
 });
 
 volver.addEventListener("click",() =>{
+  
 	pagina2.classList.add("ocultar");
-	pagina1.classList.remove("ocultar");
+  pagina1.classList.remove("ocultar");
+  limpiar();
 });
 
 volver2.addEventListener("click",() =>{
+  
 	pagina3.classList.add("ocultar");
-	pagina2.classList.remove("ocultar");
+  pagina2.classList.remove("ocultar");
+  limpiar();
 });
+
