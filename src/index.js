@@ -11,11 +11,11 @@ const iniciar = document.getElementById("empezar");
 
 const cifrar = document.getElementById("codificar");
 const descifrar = document.getElementById("decodificar");
-//const regresar= document.getElementById("volver");
+const volver= document.getElementById("volver");
 //const Limpiar= document.getElementById("limpiar");
 
 /*llamando a mis botones  de la seccion 3 de mi  index html----------------------------------------*/
-//const Volver2= document.getElementById("volver2");
+const Volver2= document.getElementById("volver2");
 
 
 /*input donde se guarda el mensaje y el offset */
@@ -29,8 +29,7 @@ const limpiar =   () =>{
 
   offset.value= "";
 
-resultadoFinal2.value="";
-resultadoFinal.value="";
+
 }
 
 
@@ -72,7 +71,7 @@ volver.addEventListener("click",() =>{
   limpiar();
 });
 
-volver2.addEventListener("click",() =>{
+Volver2.addEventListener("click",() =>{
   
 	pagina3.classList.add("ocultar");
   pagina2.classList.remove("ocultar");
