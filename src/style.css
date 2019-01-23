@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Coiny|Libre+Barcode+128+Text|Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
@@ -7,74 +6,76 @@
 
 
 
-.ocultar{
+.ocultar {
   display: none;
 }
 
 
-body{
-	 text-align: center;
-   background-color: #F4FAC9 ;
-  
-  
+body {
+  text-align: center;
+  background-color: #F4FAC9;
+
+
 }
 
-#pagina1{
+#pagina1 {
   background-image: url("https://i.pinimg.com/originals/1c/04/79/1c0479f2a4c96b7d8db608ee8a33a0a8.jpg");
 }
 
-#pagina2{
+#pagina2 {
 
-  background-image: url("http://slowearproject.com/wp-content/uploads/2017/03/Portada-copia.jpg");
-  background-color:#D1B1E9  ;
- 
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxkOna9EZtNmPfKeGDPoY72zo7o4rQ1vKTRpA_Xk967NKrTqE") ;
+  background-color: #D1B1E9;
+  width: 1300px ;
+   height: 600px;
+   align-content: center
+
 
 }
 
-#pagina3{
- /* background-image: url("https://i.pinimg.com/originals/ef/65/85/ef65858c9cebf3d8a94b99c6497524b1.jpg");*/
+#pagina3 {
+   background-image: url("https://www.edicionessibila.com/eniusimg/cache/enius199/2016/12/adj-58658359ad593-821171-1024-800.jpg");
 
 }
 
 
 
-h1{
+h1 {
   font-family: 'Pacifico', cursive;
-  
+
   border: black 20px solid;
 
   background-color: #33E6FF;
 
-  font-size:80px  ;
-  background-image:url("https://www.revistamoi.com/wp-content/uploads/2017/06/miguel-2.jpg");
+  font-size: 80px;
+  background-image: url("https://www.revistamoi.com/wp-content/uploads/2017/06/miguel-2.jpg");
 
-  
+
 }
 
-h2{
+h2 {
 
   font-family: 'Indie Flower', cursive;
-  font-size:60px;
+  font-size: 60px;
   /*border: black 20px solid;
   background-color: #9F33FF;*/
- 
+
   /*animacion*/
-  animation-duration: 3s;
+  animation-duration: 7s;
   animation-name: slidein;
 }
 
 @keyframes slidein {
   from {
-  margin-left: 100%;
-    width: 300%
-    border: #FF33C7 20px solid;
-	font-family: 'Indie Flower', cursive;
+    margin-left: 100%;
+    width: 300% border: #FF33C7 20px solid;
+    font-family: 'Indie Flower', cursive;
 
-  background-color: #9F33FF;
+    background-color: #9F33FF;
 
-  font-size:60px;
+    font-size: 60px;
 
-  background-image: url("https://i.pinimg.com/originals/2e/db/0f/2edb0fb2e7aaf9b4a2dc5ac9ceecd735.jpg")
+    background-image: url("https://i.pinimg.com/originals/2e/db/0f/2edb0fb2e7aaf9b4a2dc5ac9ceecd735.jpg")
   }
 
   to {
@@ -83,90 +84,93 @@ h2{
 
     border: #FF33C7 20px solid;
     font-family: 'Indie Flower', cursive;
-  
+
     background-color: #9F33FF;
-  
-    font-size:60px;
-  
+
+    font-size: 60px;
+
     background-image: url("https://i.pinimg.com/originals/2e/db/0f/2edb0fb2e7aaf9b4a2dc5ac9ceecd735.jpg")
   }
-  
+
 
 }
-h3{
+
+h3 {
 
   border: black 20px solid;
-	font-family: 'Libre Barcode 128 Text', cursive;
+  font-family: 'Libre Barcode 128 Text', cursive;
 
   background-color: #FF33C7;
-  
-  font-size:80px;
+
+  font-size: 80px;
   background-image: url("https://i.pinimg.com/originals/6b/50/36/6b5036d1c77a05f1b6a3823e9bf6a9c2.png")
 }
 
 
 
-h4{
+h4 {
 
-  border: black 20px solid;
+  border: black 10px solid;
   font-family: 'Indie Flower', cursive;
 
 
-  font-size:80px;
+  font-size: 60px;
   background-image: url("https://www.fantasiasmiguel.com/fantasias/dbmproductos240/1667.jpg")
-  
 }
 
-#empezar{
+#empezar {
 
   width: 200px;
   height: 80px;
-font-size: 40px;
+  font-size: 40px;
   background-color: white;
- text-align: center;
-font-family: "Indie Flower", "cursive";
-padding: 10px;
-font-weight: 600;
-color: black;
-border-radius: 6px;
-border: 2px solid #b000a7;
+  text-align: center;
+  font-family: "Indie Flower", "cursive";
+  padding: 10px;
+  font-weight: 600;
+  color: black;
+  border-radius: 6px;
+  border: 2px solid #b000a7;
 
 }
 
 #guia {
   width: 200px;
   height: 80px;
-font-size: 40px;
+  font-size: 40px;
   background-color: black;
- text-align: center;
-font-family: "Indie Flower", "cursive";
-padding: 10px;
-font-weight: 600;
-color: white;
-border-radius: 6px;
-border: 2px solid #b000a7;
+  text-align: center;
+  font-family: "Indie Flower", "cursive";
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+  border-radius: 6px;
+  border: 2px solid #b000a7;
 }
- #opcion {
-font-family: 'Pacifico', cursive;
 
- 
+#opcion {
+  font-family: 'Pacifico', cursive;
+
+
 
   font-size: 30px;
-    background-color: #FF33C7
+  background-color: #FF33C7
+}
 
+#Parrafo {
 
- }
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 30px;
+  background-color: #33E6FF;
+}
 
-  #Parrafo{
-    
-    font-family: 'Ubuntu Condensed', sans-serif;
-     font-size:30px;
-    background-color: #33E6FF;
-  }
-   #Parrafo2{
-    
-    font-family: 'Ubuntu Condensed', sans-serif;
-     font-size:30px;
-    background-color: #9F33FF;
-  }
+#Parrafo2 {
 
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 30px;
+  background-color: #9F33FF;
+}
+
+h6 {
+  
+}

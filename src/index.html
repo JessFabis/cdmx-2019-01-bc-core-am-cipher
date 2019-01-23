@@ -1,74 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <!--Lo que esta dento del Head es el nombre que lleva la etiqueta de la pagina -->
-  <head>
-    <meta charset="utf-8">
-    <title>Fabiola Juàrez</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<!--Lo que esta dento del Head es el nombre que lleva la etiqueta de la pagina -->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <title>Fabiola Juàrez</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
 
-  <body>
+<body>
 
-      <div id="pagina1"> <!--Inicio de mi seccion pagina1 ------------------------------------------->
-      <h1>Welcome </h1><h2><b>to</b> </h2><h3> Incognito</h3>
-    
-      <div>
-      <input  id="empezar"  type="button" value="Empezar " > 
-      <input  id="guia"  type="button"  value="Guia " > 
+  <div id="pagina1">
+    <!--Inicio de mi seccion pagina1 ------------------------------------------->
+    <h1>Welcome </h1>
+    <h2><b>to</b> </h2>
+    <h3> Incognito</h3>
+
+    <div>
+      <input id="empezar" type="button" value="Empezar ">
+      <input id="guia" type="button" value="Guia ">
     </div>
 
-    </div><!--Fin de mi seccion pagina1-->
+  </div>
+  <!--Fin de mi seccion pagina1-->
 
 
 
-    <p>
-    <div id="pagina2" class="ocultar"> <!--Inicio de mi seccion pagina2-------------------------------------------->
-
-    <h4>¿Que quieres hacer con tu mensaje? </h4>
-
-    <input id="opcion" type="number" >
+  <p>
       
-    <h5> Ingresa tu Mensaje y selecciona los espacion a desplazar </h5>
-    <input type="text" id="mensaje" placeholder="Ingresa tu msj">
-   
-    <input id="codificar" type="button" value="Codificar" >
-    <input id="decodificar" type="button" value="Decodificar">
-    <input id= "volver" type="button"  value="Volver">
-    <!-- estoy comentando los botones por que aun no los implemento 
+    <div id="pagina2" class="ocultar">
+      <!--Inicio de mi seccion pagina2-------------------------------------------->
+      <br> <h4>¿Que quieres hacer con tu mensaje? </h4> </br>
+      
+      
+
+      <input id="opcion" type="number">
+
+      <h5> Ingresa tu Mensaje y selecciona los espacion a desplazar </h5>
+      <input type="text" id="mensaje" placeholder="Ingresa tu msj">
+
+      <input id="codificar" type="button" value="Codificar">
+      <input id="decodificar" type="button" value="Decodificar">
+      <input id="volver" type="button" value="Volver">
+      <!-- estoy comentando los botones por que aun no los implemento 
     
     
     <button id="limpiar" value="limpiar"> Limpiar</button> -->
-    
-   </div > <!--fin de mi seccion pagina2-->
+
+    </div>
+    <!--fin de mi seccion pagina2-->
 
 
 
 
-    <div id="pagina3" class="ocultar"> <!--Inicio de mi seccion pagina3-------------------------------------------->
+    <div id="pagina3" class="ocultar">
+      <!--Inicio de mi seccion pagina3-------------------------------------------->
 
 
-      <h6> Tu mensaje procesado es.. </h6>
-        
-      <p id = "boxResult"></p>
+      <h6> Tu mensaje Oculto es.. </h6>
 
-    
-      <p id = "boxResult2"></p>
+      <p id="boxResult"></p>
 
-      <!--<textarea class ="mensajesss" id = "boxResult" rows="8" cols ="150"></textarea> -->  <!----cambiaste la clase te tuu texarea-->
+
+
       <input id="volver2" type="button" value="Volver">
-    
 
-  </div><!--fin de mi seccion pagina3-->
 
-      
-    
+    </div>
+    <!--fin de mi seccion pagina3-->
+
+    <div id="pagina4" class="ocultar">
+      <!--Inicio de mi seccion pagina4-------------------------------------------->
+
+      <h6> Tu mensaje Expuesto es.. </h6>
+
+      <p id="boxResult2"></p>
+
+      <input id="volver3" type="button" value="Volver">
+
+
+    </div>
+
+
+
   </p>
 
-  
 
 
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
+
+
 </html>

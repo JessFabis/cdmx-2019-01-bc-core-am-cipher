@@ -11,11 +11,14 @@ const iniciar = document.getElementById("empezar");
 
 const cifrar = document.getElementById("codificar");
 const descifrar = document.getElementById("decodificar");
-const volver= document.getElementById("volver");
+const volver = document.getElementById("volver");
 //const Limpiar= document.getElementById("limpiar");
 
 /*llamando a mis botones  de la seccion 3 de mi  index html----------------------------------------*/
-const Volver2= document.getElementById("volver2");
+const Volver2 = document.getElementById("volver2");
+
+/*llamando a mis botones  de la seccion 3 de mi  index html----------------------------------------*/
+const Volver3 = document.getElementById("volver3");
 
 
 /*input donde se guarda el mensaje y el offset */
@@ -24,10 +27,10 @@ const mensaje = document.getElementById("mensaje");
 let offset = document.getElementById("opcion");
 
 
-const limpiar =   () =>{
+const limpiar = () => {
   mensaje.value = "";
 
-  offset.value= "";
+  offset.value = "";
 
 
 }
@@ -46,7 +49,7 @@ cifrar.addEventListener("click", () => {
   let usuario = mensaje.value;
   pagina2.classList.add("ocultar");
   pagina3.classList.remove("ocultar");
-  
+
   let resultadoFinal = window.cipher.encode(offsetnum, usuario);
   document.getElementById("boxResult").innerHTML = resultadoFinal;
 
@@ -56,7 +59,7 @@ descifrar.addEventListener("click", () => {
   let offsetnum = offset.value;
   let usuario = mensaje.value;
   pagina2.classList.add("ocultar");
-  pagina3.classList.remove("ocultar");
+  pagina4.classList.remove("ocultar");
 
   let resultadoFinal2 = window.cipher.decode(offsetnum, usuario);
   document.getElementById("boxResult2").innerHTML = resultadoFinal2;
@@ -64,17 +67,23 @@ descifrar.addEventListener("click", () => {
   limpiar();
 });
 
-volver.addEventListener("click",() =>{
-  
-	pagina2.classList.add("ocultar");
+volver.addEventListener("click", () => {
+
+  pagina2.classList.add("ocultar");
   pagina1.classList.remove("ocultar");
   limpiar();
 });
 
-Volver2.addEventListener("click",() =>{
-  
-	pagina3.classList.add("ocultar");
+Volver2.addEventListener("click", () => {
+
+  pagina3.classList.add("ocultar");
   pagina2.classList.remove("ocultar");
   limpiar();
 });
 
+Volver3.addEventListener("click", () => {
+
+  pagina4.classList.add("ocultar");
+  pagina2.classList.remove("ocultar");
+  limpiar();
+});
