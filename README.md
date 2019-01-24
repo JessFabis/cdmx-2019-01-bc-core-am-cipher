@@ -1,3 +1,88 @@
+
+#Incognito 
+(src="assets/images/1.png")
+
+2Empezando
+Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte la implementación para ver las notas sobre cómo implementar el proyecto en un sistema en vivo.
+
+3Prerrequisitos
+Qué cosas necesita para instalar el software y cómo 4instalarlo
+
+Give examples
+5Instalación
+Una serie paso a paso de ejemplos que le indican cómo ejecutar un entorno de desarrollo.
+
+Di cual será el paso
+
+Give the example
+Y repetir
+
+until finished
+Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
+
+6Corriendo las pruebas
+Explicar cómo ejecutar las pruebas automatizadas para este sistema.
+
+7Desglosar en pruebas de extremo a extremo
+Explica qué pruebas y por qué
+
+Give an example
+8Y pruebas de estilo de codificación.
+Explica qué pruebas y por qué
+
+Give an example
+9Despliegue
+Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
+
+10Construido con
+Dropwizard - El framework web utilizado
+Maven - Gestión de la dependencia
+ROMA - Se utiliza para generar fuentes RSS
+11Contribuyendo
+Lea CONTRIBUTING.md para obtener detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de extracción.
+
+12Versiones
+Usamos SemVer para el control de versiones. Para las versiones disponibles, vea las etiquetas en este repositorio .
+
+13Autores
+Billie Thompson - Trabajo inicial - PurpleBooth
+Vea también la lista de colaboradores que participaron en este proyecto.
+
+14Licencia
+Este proyecto está licenciado bajo la Licencia MIT - vea el archivo LICENSE.md para más detalles
+
+15Expresiones de gratitud
+Sombrero de punta para cualquier persona cuyo código haya sido utilizado.
+Inspiración
+etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
