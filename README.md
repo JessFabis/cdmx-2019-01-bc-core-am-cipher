@@ -1,6 +1,8 @@
 
 #Incognito 
-![Explicacion](src//1.png)
+
+![Explicacion](src/1.png)
+
 
 2Empezando
 Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte la implementación para ver las notas sobre cómo implementar el proyecto en un sistema en vivo.
