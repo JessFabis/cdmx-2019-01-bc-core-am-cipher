@@ -3,20 +3,22 @@ window.cipher = {
 
     let nuevoCifrado = ""; /*la tenia afuera*/
 
-    let offsetNueva = parseInt(offsetnum);
+    let offsetNueva = parseInt(offsetnum); /* parseInt es para que sea un entero
 
     /*Estamos obteniendo el codigo ascci y se convierte en mayusculas*/
     /*let mayuscula = usuario.toUpperCase();*/
 
     for (let i = 0; i < usuario.length; i++) {
-      let letraAscii = usuario.charCodeAt(i);
+      let letraAscii = usuario.charCodeAt(i);// charCodeAt es para conocer el indice Ascci de un caracter "esta convirtiendo de letra a num"
       /*console.log(letraAscii);*/
 
-
+        /*parte de hackeredition , reconoce las minusculas*/
       if (letraAscii >= 97 && letraAscii <= 122) {
         let formula = (letraAscii - 97 + offsetNueva) % 26 + 97;
         let resultado = String.fromCharCode(formula);
         nuevoCifrado += resultado;
+
+        /*letras mayusculas*/
 
       } else if (letraAscii >= 65 && letraAscii <= 90) {
         let formula = (letraAscii - 65 + offsetNueva) % 26 + 65;
@@ -50,7 +52,7 @@ window.cipher = {
         nuevoCifrado2 += resultado2;
 
       } else if (letraAscii >= 97 && letraAscii <= 122) {
-        let formula = (letraAscii - 122 - offsetNueva2) % 26 + 122;
+        let formula = (letraAscii - 122 - offsetNueva2) % 26 + 122;/*necesito explicacion */
         let resultado2 = String.fromCharCode(formula);
         nuevoCifrado2 += resultado2;
       } else {
@@ -58,6 +60,7 @@ window.cipher = {
         nuevoCifrado2 += resultado2;
       }
 
+      
     }
     return (nuevoCifrado2);
     /*console.log(nuevoCifrado);*/

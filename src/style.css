@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
 
 
 
@@ -23,21 +24,35 @@ body {
 }
 
 #pagina2 {
-
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxkOna9EZtNmPfKeGDPoY72zo7o4rQ1vKTRpA_Xk967NKrTqE") ;
+  align-self: auto;
+  background-image: url("http://3.bp.blogspot.com/-yWvT4m6D5EA/UBk2WxZ9LyI/AAAAAAAAFak/rbMcWDc8MVo/s1600/Revista+TDB_29.07.2012.jpg") ;
   background-color: #D1B1E9;
-  width: 1300px ;
-   height: 600px;
-   align-content: center
+  width: 1330px ;
+   height: 900px;
+   
+  
 
 
 }
 
 #pagina3 {
-   background-image: url("https://www.edicionessibila.com/eniusimg/cache/enius199/2016/12/adj-58658359ad593-821171-1024-800.jpg");
-
+   
+   align-self: auto;
+   background-image: url("https://static2.diariovasco.com/www/pre2017/multimedia/noticias/201503/13/media/1958599.JPG") ;
+   background-color: #D1B1E9;
+   width: 1330px ;
+    height: 600px;
+    
 }
-
+#pagina4 {
+   
+  align-self: auto;
+  background-image: url("https://static2.diariovasco.com/www/pre2017/multimedia/noticias/201503/13/media/1958599.JPG") ;
+  background-color: #D1B1E9;
+  width: 1330px ;
+   height: 600px;
+   
+}
 
 
 h1 {
@@ -46,7 +61,6 @@ h1 {
   border: black 20px solid;
 
   background-color: #33E6FF;
-
   font-size: 80px;
   background-image: url("https://www.revistamoi.com/wp-content/uploads/2017/06/miguel-2.jpg");
 
@@ -109,13 +123,35 @@ h3 {
 
 
 h4 {
-
+  margin-top: -18px;
   border: black 10px solid;
   font-family: 'Indie Flower', cursive;
 
 
-  font-size: 60px;
+  font-size: 50px;
   background-image: url("https://www.fantasiasmiguel.com/fantasias/dbmproductos240/1667.jpg")
+}
+h5{
+  text-align: center;
+  margin-top: -18px;
+ 
+  font-family: 'Indie Flower', cursive;
+
+ background-color: rgba(197, 143, 197, 0.788);
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+  margin-bottom: 108px;
+  background-size: 10px;
+}
+h6 {
+  margin-top: -18px;
+  border: black 10px solid;
+  font-family: 'Indie Flower', cursive;
+
+
+  font-size: 50px;
+  background-image: url("http://pm1.narvii.com/6706/20da22a43517eb07bec0312e8f39530b58263378_00.jpg") 
 }
 
 #empezar {
@@ -123,7 +159,7 @@ h4 {
   width: 200px;
   height: 80px;
   font-size: 40px;
-  background-color: white;
+  background-image: url("https://i.pinimg.com/originals/79/46/54/79465483a4b5e36e861834cd5d4bc570.jpg");
   text-align: center;
   font-family: "Indie Flower", "cursive";
   padding: 10px;
@@ -138,7 +174,7 @@ h4 {
   width: 200px;
   height: 80px;
   font-size: 40px;
-  background-color: black;
+  background-image: url("https://66.media.tumblr.com/2a9e72b2946fe0438f64eb1cfe0417f5/tumblr_p8grfxhhjS1wd3t56o10_400.jpg");
   text-align: center;
   font-family: "Indie Flower", "cursive";
   padding: 10px;
@@ -147,14 +183,98 @@ h4 {
   border-radius: 6px;
   border: 2px solid #b000a7;
 }
+#volver{
+  width: 200px;
+  height: 80px;
+  font-size: 40px;
+  background-color: black;
+  text-align: center;
+  font-family: "Indie Flower", "cursive";
+  padding: 10px;
+  font-weight: 600;
+  color: yellow;
+  border-radius: 6px;
+  border: 2px solid yellow;
 
+}
+#volver2{
+  width: 200px;
+  height: 80px;
+  font-size: 40px;
+  background-image: url("https://www.fiestafacil.com/content/images/thumbs/0001441_fondo-pared-noche-12mts_600.jpeg");
+  text-align: center;
+  font-family: "Indie Flower", "cursive";
+  padding: 10px;
+  font-weight: 600;
+  color: fuchsia;
+  border-radius: 6px;
+  border: 2px solid fuchsia;
+  margin-top: 150px;
+}
+#volver3{
+  width: 200px;
+  height: 80px;
+  font-size: 40px;
+  background-image: url("https://www.fiestafacil.com/content/images/thumbs/0001441_fondo-pared-noche-12mts_600.jpeg");
+  text-align: center;
+  font-family: "Indie Flower", "cursive";
+  padding: 10px;
+  font-weight: 600;
+  color: fuchsia;
+  border-radius: 6px;
+  border: 2px solid fuchsia;
+  margin-top: 150px;
+}
+
+#codificar{
+  width: 200px;
+  height: 80px;
+  font-size: 40px;
+  background-image:url("https://st3.depositphotos.com/4448045/19517/v/600/depositphotos_195173340-stock-video-color-burst-colorful-blue-green.jpg");
+  text-align: center;
+  font-family: "Indie Flower", "cursive";
+  padding: 10px;
+  font-weight: 600;
+  color: rgb(68, 245, 52);
+  border-radius: 6px;
+  border: 2px solid rgb(68, 245, 52);
+}
+#decodificar{
+  width: 200px;
+  height: 80px;
+  font-size: 40px;
+  background-image:url("https://mymodernmet.com/wp/wp-content/uploads/archive/4xDCKu3RFxEjkvjWQykc_1082085269.jpeg");
+  font-family: "Indie Flower", "cursive";
+  padding: 10px;
+  font-weight: 600;
+  color: pink;
+  border-radius: 6px;
+  border: 2px solid pink;
+}
 #opcion {
   font-family: 'Pacifico', cursive;
-
-
-
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid black;
+ 
   font-size: 30px;
-  background-color: #FF33C7
+  background-color: purple;
+  margin-top: -35px;
+  margin-left: -200px;
+}
+
+#mensaje{
+  font-family: 'Pacifico', cursive;
+  width: 250px;
+  height: 220px;
+  border-radius: 6px;
+  border: 2px solid black;
+  margin-top: -400px;
+  font-size: 30px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
 }
 
 #Parrafo {
@@ -170,7 +290,22 @@ h4 {
   font-size: 30px;
   background-color: #9F33FF;
 }
+#boxResult{
 
-h6 {
+  font-family: 'Chewy', cursive;
+ 
+  font-size: 60px;
+  background-color: rgba(128, 0, 128, 0.541);
   
+  color: yellow;
+}
+
+#boxResult2{
+
+  font-family: 'Chewy', cursive;
+ 
+  font-size: 60px;
+  background-color: rgba(128, 0, 128, 0.541);
+  
+  color: yellow;
 }
