@@ -6,7 +6,8 @@ const pagina3 = document.getElementById('pagina3');
 
 /*estoy llamando los 2 prmeros botones de la seccion 1 de mi index html----------------------*/
 const iniciar = document.getElementById("empezar");
-//const Guia = document.getElementById("guia");
+const Guia = document.getElementById("guia");
+const iniciar2 = document.getElementById("empezar2");
 /*llamando a mis botones  de la seccion 2 de mi  index html-----------------------------------*/
 
 const cifrar = document.getElementById("codificar");
@@ -41,6 +42,18 @@ iniciar.addEventListener("click", () => {
   pagina1.classList.add("ocultar");
   pagina2.classList.remove("ocultar");
 });
+
+Guia.addEventListener("click", () => {
+  pagina1.classList.add("ocultar");
+  pagina5.classList.remove("ocultar");
+});
+
+iniciar2.addEventListener("click", () => {
+  pagina5.classList.add("ocultar");
+  pagina2.classList.remove("ocultar");
+});
+
+
 
 /* me falta el evento de boton de guia*/
 

@@ -25,33 +25,34 @@ body {
 
 #pagina2 {
   align-self: auto;
-  background-image: url("http://3.bp.blogspot.com/-yWvT4m6D5EA/UBk2WxZ9LyI/AAAAAAAAFak/rbMcWDc8MVo/s1600/Revista+TDB_29.07.2012.jpg") ;
+  background-image: url("http://3.bp.blogspot.com/-yWvT4m6D5EA/UBk2WxZ9LyI/AAAAAAAAFak/rbMcWDc8MVo/s1600/Revista+TDB_29.07.2012.jpg");
   background-color: #D1B1E9;
-  width: 1330px ;
-   height: 900px;
-   
-  
+  width: 1330px;
+  height: 900px;
+
+
 
 
 }
 
 #pagina3 {
-   
-   align-self: auto;
-   background-image: url("https://static2.diariovasco.com/www/pre2017/multimedia/noticias/201503/13/media/1958599.JPG") ;
-   background-color: #D1B1E9;
-   width: 1330px ;
-    height: 600px;
-    
-}
-#pagina4 {
-   
+
   align-self: auto;
-  background-image: url("https://static2.diariovasco.com/www/pre2017/multimedia/noticias/201503/13/media/1958599.JPG") ;
+  background-image: url("https://static2.diariovasco.com/www/pre2017/multimedia/noticias/201503/13/media/1958599.JPG");
   background-color: #D1B1E9;
-  width: 1330px ;
-   height: 600px;
-   
+  width: 1330px;
+  height: 600px;
+
+}
+
+#pagina4 {
+
+  align-self: auto;
+  background-image: url("https://static2.diariovasco.com/www/pre2017/multimedia/noticias/201503/13/media/1958599.JPG");
+  background-color: #D1B1E9;
+  width: 1330px;
+  height: 600px;
+
 }
 
 
@@ -131,19 +132,21 @@ h4 {
   font-size: 50px;
   background-image: url("https://www.fantasiasmiguel.com/fantasias/dbmproductos240/1667.jpg")
 }
-h5{
+
+h5 {
   text-align: center;
   margin-top: -18px;
- 
+
   font-family: 'Indie Flower', cursive;
 
- background-color: rgba(197, 143, 197, 0.788);
+  background-color: rgba(197, 143, 197, 0.788);
   font-size: 30px;
   position: relative;
   top: 30px;
   margin-bottom: 108px;
   background-size: 10px;
 }
+
 h6 {
   margin-top: -18px;
   border: black 10px solid;
@@ -151,8 +154,9 @@ h6 {
 
 
   font-size: 50px;
-  background-image: url("http://pm1.narvii.com/6706/20da22a43517eb07bec0312e8f39530b58263378_00.jpg") 
+  background-image: url("http://pm1.narvii.com/6706/20da22a43517eb07bec0312e8f39530b58263378_00.jpg")
 }
+
 
 #empezar {
 
@@ -160,6 +164,22 @@ h6 {
   height: 80px;
   font-size: 40px;
   background-image: url("https://i.pinimg.com/originals/79/46/54/79465483a4b5e36e861834cd5d4bc570.jpg");
+  text-align: center;
+  font-family: "Indie Flower", "cursive";
+  padding: 10px;
+  font-weight: 600;
+  color: black;
+  border-radius: 6px;
+  border: 2px solid #b000a7;
+
+}
+
+#empezar2 {
+
+  width: 200px;
+  height: 80px;
+  font-size: 40px;
+  background-image: url("https://st3.depositphotos.com/11757754/16957/v/1600/depositphotos_169570150-stock-illustration-seamless-gold-triangle-glitter-pattern.jpg");
   text-align: center;
   font-family: "Indie Flower", "cursive";
   padding: 10px;
@@ -183,7 +203,8 @@ h6 {
   border-radius: 6px;
   border: 2px solid #b000a7;
 }
-#volver{
+
+#volver {
   width: 200px;
   height: 80px;
   font-size: 40px;
@@ -197,21 +218,8 @@ h6 {
   border: 2px solid yellow;
 
 }
-#volver2{
-  width: 200px;
-  height: 80px;
-  font-size: 40px;
-  background-image: url("https://www.fiestafacil.com/content/images/thumbs/0001441_fondo-pared-noche-12mts_600.jpeg");
-  text-align: center;
-  font-family: "Indie Flower", "cursive";
-  padding: 10px;
-  font-weight: 600;
-  color: fuchsia;
-  border-radius: 6px;
-  border: 2px solid fuchsia;
-  margin-top: 150px;
-}
-#volver3{
+
+#volver2 {
   width: 200px;
   height: 80px;
   font-size: 40px;
@@ -226,11 +234,26 @@ h6 {
   margin-top: 150px;
 }
 
-#codificar{
+#volver3 {
   width: 200px;
   height: 80px;
   font-size: 40px;
-  background-image:url("https://st3.depositphotos.com/4448045/19517/v/600/depositphotos_195173340-stock-video-color-burst-colorful-blue-green.jpg");
+  background-image: url("https://www.fiestafacil.com/content/images/thumbs/0001441_fondo-pared-noche-12mts_600.jpeg");
+  text-align: center;
+  font-family: "Indie Flower", "cursive";
+  padding: 10px;
+  font-weight: 600;
+  color: fuchsia;
+  border-radius: 6px;
+  border: 2px solid fuchsia;
+  margin-top: 150px;
+}
+
+#codificar {
+  width: 200px;
+  height: 80px;
+  font-size: 40px;
+  background-image: url("https://st3.depositphotos.com/4448045/19517/v/600/depositphotos_195173340-stock-video-color-burst-colorful-blue-green.jpg");
   text-align: center;
   font-family: "Indie Flower", "cursive";
   padding: 10px;
@@ -239,11 +262,12 @@ h6 {
   border-radius: 6px;
   border: 2px solid rgb(68, 245, 52);
 }
-#decodificar{
+
+#decodificar {
   width: 200px;
   height: 80px;
   font-size: 40px;
-  background-image:url("https://mymodernmet.com/wp/wp-content/uploads/archive/4xDCKu3RFxEjkvjWQykc_1082085269.jpeg");
+  background-image: url("https://mymodernmet.com/wp/wp-content/uploads/archive/4xDCKu3RFxEjkvjWQykc_1082085269.jpeg");
   font-family: "Indie Flower", "cursive";
   padding: 10px;
   font-weight: 600;
@@ -251,20 +275,21 @@ h6 {
   border-radius: 6px;
   border: 2px solid pink;
 }
+
 #opcion {
   font-family: 'Pacifico', cursive;
   width: 40px;
   height: 40px;
   border-radius: 6px;
   border: 2px solid black;
- 
+
   font-size: 30px;
   background-color: purple;
   margin-top: -35px;
   margin-left: -200px;
 }
 
-#mensaje{
+#mensaje {
   font-family: 'Pacifico', cursive;
   width: 250px;
   height: 220px;
@@ -290,22 +315,23 @@ h6 {
   font-size: 30px;
   background-color: #9F33FF;
 }
-#boxResult{
+
+#boxResult {
 
   font-family: 'Chewy', cursive;
- 
+
   font-size: 60px;
   background-color: rgba(128, 0, 128, 0.541);
-  
+
   color: yellow;
 }
 
-#boxResult2{
+#boxResult2 {
 
   font-family: 'Chewy', cursive;
- 
+
   font-size: 60px;
   background-color: rgba(128, 0, 128, 0.541);
-  
+
   color: yellow;
 }
