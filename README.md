@@ -1,6 +1,6 @@
 
 #Incognito 
-(src="assets/images/1.png")
+(https://github.com/JessFabis/cdmx-2019-01-bc-core-am-cipher/blob/master/src/assets/images/1.png)
 
 2Empezando
 Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte la implementación para ver las notas sobre cómo implementar el proyecto en un sistema en vivo.
