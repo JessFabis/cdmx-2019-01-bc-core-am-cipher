@@ -1,10 +1,10 @@
 
-#Incognito 
+##Incognito 
 
 ![Explicacion](src/1.png)
 
 
-#Instalar
+##Instalar
 
 Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. 
 1-Necesitas un editor de texto ,como Atom, Visual Code, Sublime Text o cualquier otro de tu preferencia.
@@ -17,9 +17,9 @@ Estas instrucciones le permitirán obtener una copia del proyecto en funcionamie
 
 5-Instala las dependencias del proyecto con el comando npm install. Esto asume que has instalado Node.js (que incluye npm)
 
-6-Si todo ha ido bien, deberías poder ejecutar las 🚥 pruebas unitarias (unit tests) con el comando npm run test.
+6-Si todo ha ido bien, deberías poder ejecutar las  pruebas unitarias (unit tests) con el comando npm run test.
 
-#Test
+##Test
 
 describe('cipher', () => {
   it('debería ser un objeto', () => {
@@ -92,17 +92,17 @@ describe('cipher', () => {
  });
  
 
- #pruebas de estilo  y de codificacion 
+ ##pruebas de estilo  y de codificacion 
 
  -Beautify
  -eslintrc
  -htmlhint
 
- #Deployment 
+ ##Deployment 
 
- -githubpages : https://jessfabis.github.io/cdmx-2019-01-bc-core-am-cipher/src/index.html
+ -GitHub pages : https://jessfabis.github.io/cdmx-2019-01-bc-core-am-cipher/src/index.html
 
- #Construido con 
+ ##Construido con 
 
  "chai": "^4.1.2",
     "eslint": "^5.9.0",
@@ -112,7 +112,7 @@ describe('cipher', () => {
     "opener": "^1.4.3"
 
 
-#Contubuyendo
+##Contubuyendo
 
 Usuario de "slack"
 
@@ -124,9 +124,13 @@ Usuario de "slack"
 -Dianita(DianaG-M)
 -Pau_ZA (Pau-za)
 
-#Autores
+##Autores
 
 ![Explicacion](src/autores.png)
+
+##Diseño
+
+Si quieres saber un poco mas sobre el diseño de la pagina , ingresa al siguiente link :https://docs.google.com/document/d/1_jwT5oDB_DAaWp1aFP2qd67RPw-9PxDTPw832RDsavw/edit?usp=sharing
 
 
 
