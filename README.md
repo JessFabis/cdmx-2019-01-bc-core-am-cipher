@@ -4,83 +4,129 @@
 ![Explicacion](src/1.png)
 
 
-2Empezando
-Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte la implementación para ver las notas sobre cómo implementar el proyecto en un sistema en vivo.
+#Instalar
 
-3Prerrequisitos
-Qué cosas necesita para instalar el software y cómo 4instalarlo
+Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. 
+1-Necesitas un editor de texto ,como Atom, Visual Code, Sublime Text o cualquier otro de tu preferencia.
 
-Give examples
-5Instalación
-Una serie paso a paso de ejemplos que le indican cómo ejecutar un entorno de desarrollo.
+2-Para ejecutar los comandos a continuación necesitarás una  UNIX Shell, que es un programa que interpreta líneas de comando (command-line interpreter) así como tener git instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS, ya tienes una shell (terminal) instalada por defecto (y probablemente git también). Si usas Windows puedes usar Git bash
 
-Di cual será el paso
+3-Haz tu propio  fork de este repositorio de tu cohort, ingresando al siguiente link https://github.com/JessFabis/cdmx-2019-01-bc-core-am-cipher.git
 
-Give the example
-Y repetir
+4-Clona tu fork a tu computadora (copia local).
 
-until finished
-Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
+5-Instala las dependencias del proyecto con el comando npm install. Esto asume que has instalado Node.js (que incluye npm)
 
-6Corriendo las pruebas
-Explicar cómo ejecutar las pruebas automatizadas para este sistema.
+6-Si todo ha ido bien, deberías poder ejecutar las 🚥 pruebas unitarias (unit tests) con el comando npm run test.
 
-7Desglosar en pruebas de extremo a extremo
-Explica qué pruebas y por qué
+#Test
 
-Give an example
-8Y pruebas de estilo de codificación.
-Explica qué pruebas y por qué
+describe('cipher', () => {
+  it('debería ser un objeto', () => {
+    assert.equal(typeof cipher, 'object');
+  });
+  describe('cipher.encode', () => {
+    it('debería ser una función', () => {
+      assert.equal(typeof cipher.encode, 'function');
+    });
+    it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33',() =>{
+      assert.equal(cipher.encode(33,"ABCDEFGHIJKLMNOPQRSTUVWXYZ"),"HIJKLMNOPQRSTUVWXYZABCDEFG" );
+   });
+      // Hacker edition
+    //
+  // Si decides implementar soporte para caracteres no alfabéticos descomenta
+    // el test a continuación.
+    //
+     it('debería retornar " !@" para " !@"', () => {
+      assert.equal(cipher.encode(33, ' !@'),' !@');
+     });
+  // Hacker edition
+     // Si decides agregar soporte para minúsculas descomenta el test a
+     // continuación.
+     //
+     it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () => {
+       assert.equal(
+         cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'),
+         'hijklmnopqrstuvwxyzabcdefg'
+      );
+     });
+    //
+    // Hacker edition
+    //
+    // Si decides implementar soporte para caracteres no alfabéticos descomenta
+    // el test a continuación.
+    //
+    // it('debería retornar " !@" para " !@"', () => {
+    //   assert.equal(cipher.encode(33, ' !@'),' !@');
+    // });
+  });
+  describe('cipher.decode', () => {
+    it('debería ser una función', () => {
+      assert.equal(typeof cipher.decode, 'function');
+    });
+    it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33',() =>{
+      assert.equal(cipher.decode(33,"HIJKLMNOPQRSTUVWXYZABCDEFG"),"ABCDEFGHIJKLMNOPQRSTUVWXYZ" );
+   });
+    //
+    // Hacker edition
+    //
+    // Si decides agregar soporte para minúsculas descomenta el test a
+    // continuación.
+    //
+    it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33', () => {
+      assert.equal(
+        cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg'),
+        'abcdefghijklmnopqrstuvwxyz'
+     );
+    });
+    //
+    // Hacker edition
+    //
+    // Si decides implementar soporte para caracteres no alfabéticos descomenta
+    // el test a continuación.
+    //
+    it('debería retornar " !@" para " !@"', () => {
+      assert.equal(cipher.decode(33, ' !@'),' !@');
+    });
+  });
+ });
+ 
 
-Give an example
-9Despliegue
-Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
+ #pruebas de estilo  y de codificacion 
 
-10Construido con
-Dropwizard - El framework web utilizado
-Maven - Gestión de la dependencia
-ROMA - Se utiliza para generar fuentes RSS
-11Contribuyendo
-Lea CONTRIBUTING.md para obtener detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de extracción.
+ -Beautify
+ -eslintrc
+ -htmlhint
 
-12Versiones
-Usamos SemVer para el control de versiones. Para las versiones disponibles, vea las etiquetas en este repositorio .
+ #Deployment 
 
-13Autores
-Billie Thompson - Trabajo inicial - PurpleBooth
-Vea también la lista de colaboradores que participaron en este proyecto.
+ -githubpages : https://jessfabis.github.io/cdmx-2019-01-bc-core-am-cipher/src/index.html
 
-14Licencia
-Este proyecto está licenciado bajo la Licencia MIT - vea el archivo LICENSE.md para más detalles
+ #Construido con 
 
-15Expresiones de gratitud
-Sombrero de punta para cualquier persona cuyo código haya sido utilizado.
-Inspiración
-etc
+ "chai": "^4.1.2",
+    "eslint": "^5.9.0",
+    "htmlhint": "^0.10.1",
+    "mocha": "^5.1.1",
+    "nyc": "^13.1.0",
+    "opener": "^1.4.3"
 
 
+#Contubuyendo
 
+Usuario de "slack"
 
+-Elenore (elenore29) 
+-Elsy (elsycardona)
+-Gaby(gabycastro1403)
+-Lorena Guido (lore0223)
+-Ely Ramírez
+-Dianita(DianaG-M)
+-Pau_ZA (Pau-za)
 
+#Autores
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Explicacion](src/autores.png)
 
 
 
